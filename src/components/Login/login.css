@@ -1,0 +1,86 @@
+.hideLoginPopup {
+  display: none;
+}
+.popup {
+  display: block;
+}
+.loginPopup {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  flex-direction: column;
+  gap: 25px;
+  background-color: white;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.164);
+  padding: 50px 28px;
+  width: 330px;
+  border-radius: 10px;
+  position: fixed;
+  z-index: 1000;
+  top: 25%;
+  left: 39%;
+}
+.loginPopup p {
+  font-size: 12px;
+}
+.loginPopup h4 {
+  font-weight: 400;
+  font-size: 18px;
+}
+.loginPopup input {
+  border: 1px solid rgba(128, 128, 128, 0.432);
+  padding: 2px 5px;
+  width: 280px;
+  height: 40px;
+}
+.loginPopup button {
+  border: none;
+  background-color: rgb(228, 0, 70);
+  color: white;
+  font-weight: 500;
+  border-radius: 4px;
+  width: 280px;
+  height: 40px;
+}
+.remove {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.remove button {
+  background-color: transparent;
+  width: 40px;
+  border: none;
+  margin-left: 30px;
+}
+.remove button i {
+  color: rgba(158, 157, 157, 0.568);
+  font-size: 18px;
+}
+
+.login button {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  padding: 10px 10px;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 0px 5px rgba(0, 0, 0, 0.164);
+  border: none;
+  border-radius: 2px;
+}
+.login button img {
+  width: 25px;
+  /* margin-right: 130px; */
+}
+.login button span {
+  color: black;
+  margin-left: 100px;
+}
+.login {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
